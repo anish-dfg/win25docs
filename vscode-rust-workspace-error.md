@@ -24,7 +24,7 @@ If you still have errors, you can try to make VSCode use a separate instance of 
 }
 ```
 
-```diff json
+```diff
 {
   "rust-analyzer.linkedProjects": ["/path/to/scipio/Cargo.toml"],
   "rust.analyzer.cargo.loadOutDirsFromCheck": true,
