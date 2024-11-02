@@ -23,3 +23,14 @@ If you still have errors, you can try to make VSCode use a separate instance of 
   "rust-analyzer.cargo.allFeatures": true
 }
 ```
+
+```diff json
+{
+  "rust-analyzer.linkedProjects": ["/path/to/scipio/Cargo.toml"],
+  "rust.analyzer.cargo.loadOutDirsFromCheck": true,
+  "rust-analyzer.cargo.allFeatures": true,
+  + "rust-analyzer.server.path": "/path/to/your/rust/analyzer"
+}
+```
+
+To find the path to the rust analyzer you are using, you can run the following command: `which rust-analyzer`.
