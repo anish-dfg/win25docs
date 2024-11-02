@@ -20,16 +20,8 @@ If you still have errors, you can try to make VSCode use a separate instance of 
 {
   "rust-analyzer.linkedProjects": ["/path/to/scipio/Cargo.toml"],
   "rust.analyzer.cargo.loadOutDirsFromCheck": true,
-  "rust-analyzer.cargo.allFeatures": true
-}
-```
-
-```diff
-{
-  "rust-analyzer.linkedProjects": ["/path/to/scipio/Cargo.toml"],
-  "rust.analyzer.cargo.loadOutDirsFromCheck": true,
   "rust-analyzer.cargo.allFeatures": true,
-  + "rust-analyzer.server.path": "/path/to/your/rust/analyzer"
+  "rust-analyzer.server.path": "/path/to/your/rust/analyzer"
 }
 ```
 
